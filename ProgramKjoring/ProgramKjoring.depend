@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1724244889 source:c:\users\amund\documents\ntnu 2\grprog\eksempler\eks_01_vector.cpp
+	<iostream>
+	<string>
+
+1724326143 source:c:\users\amund\onedrive - ntnu\ntnu_2\grprog\eksempler\eks_01_vector.cpp
+	<iostream>
+	<string>
+
+1724999056 source:c:\users\amund\onedrive - ntnu\ntnu_2\grprog\eksempler\eks_08_tretraversering.cpp
+	<iostream>
+	<stack>
+	<queue>
+
+1724945887 source:c:\users\amund\onedrive - ntnu\ntnu_2\grprog\eksempler\eks_05_infixtilpostfix.cpp
+	<iostream>
+	<stack>
+
