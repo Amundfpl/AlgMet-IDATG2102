@@ -39,7 +39,15 @@
 						21,
 						22,
 						23,
-						24
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32
 					]
 				}
 			],
@@ -78,12 +86,48 @@
 						21,
 						22,
 						23,
-						24
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32
 					]
 				}
 			],
 			"targets" : 
 			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Case_2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Case_2-Debug-52081bb0f56190dd0bb9.json",
+					"name" : "Case_2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Case_3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Case_3-Debug-db0d0cd89d479c33b3e0.json",
+					"name" : "Case_3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Case_4::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Case_4-Debug-03506959f3440cd0ef63.json",
+					"name" : "Case_4",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Oblig5::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Oblig5-Debug-88a9c19d3fca4a3ae016.json",
+					"name" : "Oblig5",
+					"projectIndex" : 0
+				},
 				{
 					"directoryIndex" : 0,
 					"id" : "Oppgave_6::@6890427a1f51a3e7e1df",
@@ -243,6 +287,34 @@
 					"id" : "eks_24_QuickSort::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-eks_24_QuickSort-Debug-8c53d135b76c51f9a66a.json",
 					"name" : "eks_24_QuickSort",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "eks_26_HeapSort::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-eks_26_HeapSort-Debug-0fd5aabbcfe96aee19b5.json",
+					"name" : "eks_26_HeapSort",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "eks_31_MST::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-eks_31_MST-Debug-a725e5cd617aebf43f3c.json",
+					"name" : "eks_31_MST",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "eks_33_Graf_Case1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-eks_33_Graf_Case1-Debug-df8cd34297e9d25568aa.json",
+					"name" : "eks_33_Graf_Case1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "eks_34_Graf_Case2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-eks_34_Graf_Case2-Debug-c89b519e346bf44297c1.json",
+					"name" : "eks_34_Graf_Case2",
 					"projectIndex" : 0
 				},
 				{

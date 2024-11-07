@@ -55,8 +55,6 @@ build CMakeFiles/Traer_Case3.dir/C_/Users/amund/OneDrive_-_NTNU/Dokumenter/NTNU_
   INCLUDES = -I"C:/Users/amund/OneDrive - NTNU/Dokumenter/NTNU_2/GrProg/Eksempler/../Oppgaver" -I"C:/Users/amund/OneDrive - NTNU/Dokumenter/NTNU_2/GrProg/Eksempler/../Eksamen" -I"C:/Users/amund/OneDrive - NTNU/Dokumenter/NTNU_2/GrProg/Eksempler/../Obliger"
   OBJECT_DIR = CMakeFiles\Traer_Case3.dir
   OBJECT_FILE_DIR = CMakeFiles\Traer_Case3.dir\C_\Users\amund\OneDrive_-_NTNU\Dokumenter\NTNU_2\GrProg\Eksamen
-  TARGET_COMPILE_PDB = CMakeFiles\Traer_Case3.dir\
-  TARGET_PDB = Traer_Case3.pdb
 
 
 # =============================================================================
@@ -72,10 +70,43 @@ build Traer_Case3.exe: CXX_EXECUTABLE_LINKER__Traer_Case3_Debug CMakeFiles/Traer
   OBJECT_DIR = CMakeFiles\Traer_Case3.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\Traer_Case3.dir\
   TARGET_FILE = Traer_Case3.exe
   TARGET_IMPLIB = libTraer_Case3.dll.a
-  TARGET_PDB = Traer_Case3.pdb
+  TARGET_PDB = Traer_Case3.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Oblig5
+
+
+#############################################
+# Order-only phony target for Oblig5
+
+build cmake_object_order_depends_target_Oblig5: phony || .
+
+build CMakeFiles/Oblig5.dir/C_/Users/amund/OneDrive_-_NTNU/Dokumenter/NTNU_2/GrProg/Obliger/Oblig5.cpp.obj: CXX_COMPILER__Oblig5_unscanned_Debug C$:/Users/amund/OneDrive$ -$ NTNU/Dokumenter/NTNU_2/GrProg/Obliger/Oblig5.cpp || cmake_object_order_depends_target_Oblig5
+  DEP_FILE = CMakeFiles\Oblig5.dir\C_\Users\amund\OneDrive_-_NTNU\Dokumenter\NTNU_2\GrProg\Obliger\Oblig5.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  INCLUDES = -I"C:/Users/amund/OneDrive - NTNU/Dokumenter/NTNU_2/GrProg/Eksempler/../Oppgaver" -I"C:/Users/amund/OneDrive - NTNU/Dokumenter/NTNU_2/GrProg/Eksempler/../Eksamen" -I"C:/Users/amund/OneDrive - NTNU/Dokumenter/NTNU_2/GrProg/Eksempler/../Obliger"
+  OBJECT_DIR = CMakeFiles\Oblig5.dir
+  OBJECT_FILE_DIR = CMakeFiles\Oblig5.dir\C_\Users\amund\OneDrive_-_NTNU\Dokumenter\NTNU_2\GrProg\Obliger
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Oblig5
+
+
+#############################################
+# Link the executable Oblig5.exe
+
+build Oblig5.exe: CXX_EXECUTABLE_LINKER__Oblig5_Debug CMakeFiles/Oblig5.dir/C_/Users/amund/OneDrive_-_NTNU/Dokumenter/NTNU_2/GrProg/Obliger/Oblig5.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Oblig5.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Oblig5.exe
+  TARGET_IMPLIB = libOblig5.dll.a
+  TARGET_PDB = Oblig5.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target oblig2
@@ -92,8 +123,6 @@ build CMakeFiles/oblig2.dir/C_/Users/amund/OneDrive_-_NTNU/Dokumenter/NTNU_2/GrP
   INCLUDES = -I"C:/Users/amund/OneDrive - NTNU/Dokumenter/NTNU_2/GrProg/Eksempler/../Oppgaver" -I"C:/Users/amund/OneDrive - NTNU/Dokumenter/NTNU_2/GrProg/Eksempler/../Eksamen" -I"C:/Users/amund/OneDrive - NTNU/Dokumenter/NTNU_2/GrProg/Eksempler/../Obliger"
   OBJECT_DIR = CMakeFiles\oblig2.dir
   OBJECT_FILE_DIR = CMakeFiles\oblig2.dir\C_\Users\amund\OneDrive_-_NTNU\Dokumenter\NTNU_2\GrProg\Obliger
-  TARGET_COMPILE_PDB = CMakeFiles\oblig2.dir\
-  TARGET_PDB = oblig2.pdb
 
 
 # =============================================================================
@@ -109,10 +138,111 @@ build oblig2.exe: CXX_EXECUTABLE_LINKER__oblig2_Debug CMakeFiles/oblig2.dir/C_/U
   OBJECT_DIR = CMakeFiles\oblig2.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\oblig2.dir\
   TARGET_FILE = oblig2.exe
   TARGET_IMPLIB = liboblig2.dll.a
-  TARGET_PDB = oblig2.pdb
+  TARGET_PDB = oblig2.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Case_2
+
+
+#############################################
+# Order-only phony target for Case_2
+
+build cmake_object_order_depends_target_Case_2: phony || .
+
+build CMakeFiles/Case_2.dir/C_/Users/amund/OneDrive_-_NTNU/Dokumenter/NTNU_2/GrProg/Oppgaver/Case_2.cpp.obj: CXX_COMPILER__Case_2_unscanned_Debug C$:/Users/amund/OneDrive$ -$ NTNU/Dokumenter/NTNU_2/GrProg/Oppgaver/Case_2.cpp || cmake_object_order_depends_target_Case_2
+  DEP_FILE = CMakeFiles\Case_2.dir\C_\Users\amund\OneDrive_-_NTNU\Dokumenter\NTNU_2\GrProg\Oppgaver\Case_2.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  INCLUDES = -I"C:/Users/amund/OneDrive - NTNU/Dokumenter/NTNU_2/GrProg/Eksempler/../Oppgaver" -I"C:/Users/amund/OneDrive - NTNU/Dokumenter/NTNU_2/GrProg/Eksempler/../Eksamen" -I"C:/Users/amund/OneDrive - NTNU/Dokumenter/NTNU_2/GrProg/Eksempler/../Obliger"
+  OBJECT_DIR = CMakeFiles\Case_2.dir
+  OBJECT_FILE_DIR = CMakeFiles\Case_2.dir\C_\Users\amund\OneDrive_-_NTNU\Dokumenter\NTNU_2\GrProg\Oppgaver
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Case_2
+
+
+#############################################
+# Link the executable Case_2.exe
+
+build Case_2.exe: CXX_EXECUTABLE_LINKER__Case_2_Debug CMakeFiles/Case_2.dir/C_/Users/amund/OneDrive_-_NTNU/Dokumenter/NTNU_2/GrProg/Oppgaver/Case_2.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Case_2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Case_2.exe
+  TARGET_IMPLIB = libCase_2.dll.a
+  TARGET_PDB = Case_2.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Case_3
+
+
+#############################################
+# Order-only phony target for Case_3
+
+build cmake_object_order_depends_target_Case_3: phony || .
+
+build CMakeFiles/Case_3.dir/C_/Users/amund/OneDrive_-_NTNU/Dokumenter/NTNU_2/GrProg/Oppgaver/Case_3.cpp.obj: CXX_COMPILER__Case_3_unscanned_Debug C$:/Users/amund/OneDrive$ -$ NTNU/Dokumenter/NTNU_2/GrProg/Oppgaver/Case_3.cpp || cmake_object_order_depends_target_Case_3
+  DEP_FILE = CMakeFiles\Case_3.dir\C_\Users\amund\OneDrive_-_NTNU\Dokumenter\NTNU_2\GrProg\Oppgaver\Case_3.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  INCLUDES = -I"C:/Users/amund/OneDrive - NTNU/Dokumenter/NTNU_2/GrProg/Eksempler/../Oppgaver" -I"C:/Users/amund/OneDrive - NTNU/Dokumenter/NTNU_2/GrProg/Eksempler/../Eksamen" -I"C:/Users/amund/OneDrive - NTNU/Dokumenter/NTNU_2/GrProg/Eksempler/../Obliger"
+  OBJECT_DIR = CMakeFiles\Case_3.dir
+  OBJECT_FILE_DIR = CMakeFiles\Case_3.dir\C_\Users\amund\OneDrive_-_NTNU\Dokumenter\NTNU_2\GrProg\Oppgaver
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Case_3
+
+
+#############################################
+# Link the executable Case_3.exe
+
+build Case_3.exe: CXX_EXECUTABLE_LINKER__Case_3_Debug CMakeFiles/Case_3.dir/C_/Users/amund/OneDrive_-_NTNU/Dokumenter/NTNU_2/GrProg/Oppgaver/Case_3.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Case_3.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Case_3.exe
+  TARGET_IMPLIB = libCase_3.dll.a
+  TARGET_PDB = Case_3.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Case_4
+
+
+#############################################
+# Order-only phony target for Case_4
+
+build cmake_object_order_depends_target_Case_4: phony || .
+
+build CMakeFiles/Case_4.dir/C_/Users/amund/OneDrive_-_NTNU/Dokumenter/NTNU_2/GrProg/Oppgaver/Case_4.cpp.obj: CXX_COMPILER__Case_4_unscanned_Debug C$:/Users/amund/OneDrive$ -$ NTNU/Dokumenter/NTNU_2/GrProg/Oppgaver/Case_4.cpp || cmake_object_order_depends_target_Case_4
+  DEP_FILE = CMakeFiles\Case_4.dir\C_\Users\amund\OneDrive_-_NTNU\Dokumenter\NTNU_2\GrProg\Oppgaver\Case_4.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  INCLUDES = -I"C:/Users/amund/OneDrive - NTNU/Dokumenter/NTNU_2/GrProg/Eksempler/../Oppgaver" -I"C:/Users/amund/OneDrive - NTNU/Dokumenter/NTNU_2/GrProg/Eksempler/../Eksamen" -I"C:/Users/amund/OneDrive - NTNU/Dokumenter/NTNU_2/GrProg/Eksempler/../Obliger"
+  OBJECT_DIR = CMakeFiles\Case_4.dir
+  OBJECT_FILE_DIR = CMakeFiles\Case_4.dir\C_\Users\amund\OneDrive_-_NTNU\Dokumenter\NTNU_2\GrProg\Oppgaver
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Case_4
+
+
+#############################################
+# Link the executable Case_4.exe
+
+build Case_4.exe: CXX_EXECUTABLE_LINKER__Case_4_Debug CMakeFiles/Case_4.dir/C_/Users/amund/OneDrive_-_NTNU/Dokumenter/NTNU_2/GrProg/Oppgaver/Case_4.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Case_4.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Case_4.exe
+  TARGET_IMPLIB = libCase_4.dll.a
+  TARGET_PDB = Case_4.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target Oppgave_6
@@ -129,8 +259,6 @@ build CMakeFiles/Oppgave_6.dir/C_/Users/amund/OneDrive_-_NTNU/Dokumenter/NTNU_2/
   INCLUDES = -I"C:/Users/amund/OneDrive - NTNU/Dokumenter/NTNU_2/GrProg/Eksempler/../Oppgaver" -I"C:/Users/amund/OneDrive - NTNU/Dokumenter/NTNU_2/GrProg/Eksempler/../Eksamen" -I"C:/Users/amund/OneDrive - NTNU/Dokumenter/NTNU_2/GrProg/Eksempler/../Obliger"
   OBJECT_DIR = CMakeFiles\Oppgave_6.dir
   OBJECT_FILE_DIR = CMakeFiles\Oppgave_6.dir\C_\Users\amund\OneDrive_-_NTNU\Dokumenter\NTNU_2\GrProg\Oppgaver
-  TARGET_COMPILE_PDB = CMakeFiles\Oppgave_6.dir\
-  TARGET_PDB = Oppgave_6.pdb
 
 
 # =============================================================================
@@ -146,10 +274,9 @@ build Oppgave_6.exe: CXX_EXECUTABLE_LINKER__Oppgave_6_Debug CMakeFiles/Oppgave_6
   OBJECT_DIR = CMakeFiles\Oppgave_6.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\Oppgave_6.dir\
   TARGET_FILE = Oppgave_6.exe
   TARGET_IMPLIB = libOppgave_6.dll.a
-  TARGET_PDB = Oppgave_6.pdb
+  TARGET_PDB = Oppgave_6.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target Oppgave_7
@@ -166,8 +293,6 @@ build CMakeFiles/Oppgave_7.dir/C_/Users/amund/OneDrive_-_NTNU/Dokumenter/NTNU_2/
   INCLUDES = -I"C:/Users/amund/OneDrive - NTNU/Dokumenter/NTNU_2/GrProg/Eksempler/../Oppgaver" -I"C:/Users/amund/OneDrive - NTNU/Dokumenter/NTNU_2/GrProg/Eksempler/../Eksamen" -I"C:/Users/amund/OneDrive - NTNU/Dokumenter/NTNU_2/GrProg/Eksempler/../Obliger"
   OBJECT_DIR = CMakeFiles\Oppgave_7.dir
   OBJECT_FILE_DIR = CMakeFiles\Oppgave_7.dir\C_\Users\amund\OneDrive_-_NTNU\Dokumenter\NTNU_2\GrProg\Oppgaver
-  TARGET_COMPILE_PDB = CMakeFiles\Oppgave_7.dir\
-  TARGET_PDB = Oppgave_7.pdb
 
 
 # =============================================================================
@@ -183,10 +308,9 @@ build Oppgave_7.exe: CXX_EXECUTABLE_LINKER__Oppgave_7_Debug CMakeFiles/Oppgave_7
   OBJECT_DIR = CMakeFiles\Oppgave_7.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\Oppgave_7.dir\
   TARGET_FILE = Oppgave_7.exe
   TARGET_IMPLIB = libOppgave_7.dll.a
-  TARGET_PDB = Oppgave_7.pdb
+  TARGET_PDB = Oppgave_7.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target oppg_08-HOVEDRISS
@@ -203,8 +327,6 @@ build CMakeFiles/oppg_08-HOVEDRISS.dir/C_/Users/amund/OneDrive_-_NTNU/Dokumenter
   INCLUDES = -I"C:/Users/amund/OneDrive - NTNU/Dokumenter/NTNU_2/GrProg/Eksempler/../Oppgaver" -I"C:/Users/amund/OneDrive - NTNU/Dokumenter/NTNU_2/GrProg/Eksempler/../Eksamen" -I"C:/Users/amund/OneDrive - NTNU/Dokumenter/NTNU_2/GrProg/Eksempler/../Obliger"
   OBJECT_DIR = CMakeFiles\oppg_08-HOVEDRISS.dir
   OBJECT_FILE_DIR = CMakeFiles\oppg_08-HOVEDRISS.dir\C_\Users\amund\OneDrive_-_NTNU\Dokumenter\NTNU_2\GrProg\Oppgaver
-  TARGET_COMPILE_PDB = CMakeFiles\oppg_08-HOVEDRISS.dir\
-  TARGET_PDB = oppg_08-HOVEDRISS.pdb
 
 
 # =============================================================================
@@ -220,10 +342,9 @@ build oppg_08-HOVEDRISS.exe: CXX_EXECUTABLE_LINKER__oppg_08-HOVEDRISS_Debug CMak
   OBJECT_DIR = CMakeFiles\oppg_08-HOVEDRISS.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\oppg_08-HOVEDRISS.dir\
   TARGET_FILE = oppg_08-HOVEDRISS.exe
   TARGET_IMPLIB = liboppg_08-HOVEDRISS.dll.a
-  TARGET_PDB = oppg_08-HOVEDRISS.pdb
+  TARGET_PDB = oppg_08-HOVEDRISS.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target eks_01_Vector
@@ -240,8 +361,6 @@ build CMakeFiles/eks_01_Vector.dir/eks_01_Vector.cpp.obj: CXX_COMPILER__eks_01_V
   INCLUDES = -I"C:/Users/amund/OneDrive - NTNU/Dokumenter/NTNU_2/GrProg/Eksempler/../Oppgaver" -I"C:/Users/amund/OneDrive - NTNU/Dokumenter/NTNU_2/GrProg/Eksempler/../Eksamen" -I"C:/Users/amund/OneDrive - NTNU/Dokumenter/NTNU_2/GrProg/Eksempler/../Obliger"
   OBJECT_DIR = CMakeFiles\eks_01_Vector.dir
   OBJECT_FILE_DIR = CMakeFiles\eks_01_Vector.dir
-  TARGET_COMPILE_PDB = CMakeFiles\eks_01_Vector.dir\
-  TARGET_PDB = eks_01_Vector.pdb
 
 
 # =============================================================================
@@ -257,10 +376,9 @@ build eks_01_Vector.exe: CXX_EXECUTABLE_LINKER__eks_01_Vector_Debug CMakeFiles/e
   OBJECT_DIR = CMakeFiles\eks_01_Vector.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\eks_01_Vector.dir\
   TARGET_FILE = eks_01_Vector.exe
   TARGET_IMPLIB = libeks_01_Vector.dll.a
-  TARGET_PDB = eks_01_Vector.pdb
+  TARGET_PDB = eks_01_Vector.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target eks_02_Stack
@@ -277,8 +395,6 @@ build CMakeFiles/eks_02_Stack.dir/eks_02_Stack.cpp.obj: CXX_COMPILER__eks_02_Sta
   INCLUDES = -I"C:/Users/amund/OneDrive - NTNU/Dokumenter/NTNU_2/GrProg/Eksempler/../Oppgaver" -I"C:/Users/amund/OneDrive - NTNU/Dokumenter/NTNU_2/GrProg/Eksempler/../Eksamen" -I"C:/Users/amund/OneDrive - NTNU/Dokumenter/NTNU_2/GrProg/Eksempler/../Obliger"
   OBJECT_DIR = CMakeFiles\eks_02_Stack.dir
   OBJECT_FILE_DIR = CMakeFiles\eks_02_Stack.dir
-  TARGET_COMPILE_PDB = CMakeFiles\eks_02_Stack.dir\
-  TARGET_PDB = eks_02_Stack.pdb
 
 
 # =============================================================================
@@ -294,10 +410,9 @@ build eks_02_Stack.exe: CXX_EXECUTABLE_LINKER__eks_02_Stack_Debug CMakeFiles/eks
   OBJECT_DIR = CMakeFiles\eks_02_Stack.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\eks_02_Stack.dir\
   TARGET_FILE = eks_02_Stack.exe
   TARGET_IMPLIB = libeks_02_Stack.dll.a
-  TARGET_PDB = eks_02_Stack.pdb
+  TARGET_PDB = eks_02_Stack.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target eks_03_Queue
@@ -314,8 +429,6 @@ build CMakeFiles/eks_03_Queue.dir/eks_03_Queue.cpp.obj: CXX_COMPILER__eks_03_Que
   INCLUDES = -I"C:/Users/amund/OneDrive - NTNU/Dokumenter/NTNU_2/GrProg/Eksempler/../Oppgaver" -I"C:/Users/amund/OneDrive - NTNU/Dokumenter/NTNU_2/GrProg/Eksempler/../Eksamen" -I"C:/Users/amund/OneDrive - NTNU/Dokumenter/NTNU_2/GrProg/Eksempler/../Obliger"
   OBJECT_DIR = CMakeFiles\eks_03_Queue.dir
   OBJECT_FILE_DIR = CMakeFiles\eks_03_Queue.dir
-  TARGET_COMPILE_PDB = CMakeFiles\eks_03_Queue.dir\
-  TARGET_PDB = eks_03_Queue.pdb
 
 
 # =============================================================================
@@ -331,10 +444,9 @@ build eks_03_Queue.exe: CXX_EXECUTABLE_LINKER__eks_03_Queue_Debug CMakeFiles/eks
   OBJECT_DIR = CMakeFiles\eks_03_Queue.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\eks_03_Queue.dir\
   TARGET_FILE = eks_03_Queue.exe
   TARGET_IMPLIB = libeks_03_Queue.dll.a
-  TARGET_PDB = eks_03_Queue.pdb
+  TARGET_PDB = eks_03_Queue.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target eks_04_List
@@ -351,8 +463,6 @@ build CMakeFiles/eks_04_List.dir/eks_04_List.cpp.obj: CXX_COMPILER__eks_04_List_
   INCLUDES = -I"C:/Users/amund/OneDrive - NTNU/Dokumenter/NTNU_2/GrProg/Eksempler/../Oppgaver" -I"C:/Users/amund/OneDrive - NTNU/Dokumenter/NTNU_2/GrProg/Eksempler/../Eksamen" -I"C:/Users/amund/OneDrive - NTNU/Dokumenter/NTNU_2/GrProg/Eksempler/../Obliger"
   OBJECT_DIR = CMakeFiles\eks_04_List.dir
   OBJECT_FILE_DIR = CMakeFiles\eks_04_List.dir
-  TARGET_COMPILE_PDB = CMakeFiles\eks_04_List.dir\
-  TARGET_PDB = eks_04_List.pdb
 
 
 # =============================================================================
@@ -368,10 +478,9 @@ build eks_04_List.exe: CXX_EXECUTABLE_LINKER__eks_04_List_Debug CMakeFiles/eks_0
   OBJECT_DIR = CMakeFiles\eks_04_List.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\eks_04_List.dir\
   TARGET_FILE = eks_04_List.exe
   TARGET_IMPLIB = libeks_04_List.dll.a
-  TARGET_PDB = eks_04_List.pdb
+  TARGET_PDB = eks_04_List.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target eks_05_InfixTilPostfix
@@ -388,8 +497,6 @@ build CMakeFiles/eks_05_InfixTilPostfix.dir/eks_05_InfixTilPostfix.cpp.obj: CXX_
   INCLUDES = -I"C:/Users/amund/OneDrive - NTNU/Dokumenter/NTNU_2/GrProg/Eksempler/../Oppgaver" -I"C:/Users/amund/OneDrive - NTNU/Dokumenter/NTNU_2/GrProg/Eksempler/../Eksamen" -I"C:/Users/amund/OneDrive - NTNU/Dokumenter/NTNU_2/GrProg/Eksempler/../Obliger"
   OBJECT_DIR = CMakeFiles\eks_05_InfixTilPostfix.dir
   OBJECT_FILE_DIR = CMakeFiles\eks_05_InfixTilPostfix.dir
-  TARGET_COMPILE_PDB = CMakeFiles\eks_05_InfixTilPostfix.dir\
-  TARGET_PDB = eks_05_InfixTilPostfix.pdb
 
 
 # =============================================================================
@@ -405,10 +512,9 @@ build eks_05_InfixTilPostfix.exe: CXX_EXECUTABLE_LINKER__eks_05_InfixTilPostfix_
   OBJECT_DIR = CMakeFiles\eks_05_InfixTilPostfix.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\eks_05_InfixTilPostfix.dir\
   TARGET_FILE = eks_05_InfixTilPostfix.exe
   TARGET_IMPLIB = libeks_05_InfixTilPostfix.dll.a
-  TARGET_PDB = eks_05_InfixTilPostfix.pdb
+  TARGET_PDB = eks_05_InfixTilPostfix.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target eks_06_PostfixTilSvar
@@ -425,8 +531,6 @@ build CMakeFiles/eks_06_PostfixTilSvar.dir/eks_06_PostfixTilSvar.cpp.obj: CXX_CO
   INCLUDES = -I"C:/Users/amund/OneDrive - NTNU/Dokumenter/NTNU_2/GrProg/Eksempler/../Oppgaver" -I"C:/Users/amund/OneDrive - NTNU/Dokumenter/NTNU_2/GrProg/Eksempler/../Eksamen" -I"C:/Users/amund/OneDrive - NTNU/Dokumenter/NTNU_2/GrProg/Eksempler/../Obliger"
   OBJECT_DIR = CMakeFiles\eks_06_PostfixTilSvar.dir
   OBJECT_FILE_DIR = CMakeFiles\eks_06_PostfixTilSvar.dir
-  TARGET_COMPILE_PDB = CMakeFiles\eks_06_PostfixTilSvar.dir\
-  TARGET_PDB = eks_06_PostfixTilSvar.pdb
 
 
 # =============================================================================
@@ -442,10 +546,9 @@ build eks_06_PostfixTilSvar.exe: CXX_EXECUTABLE_LINKER__eks_06_PostfixTilSvar_De
   OBJECT_DIR = CMakeFiles\eks_06_PostfixTilSvar.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\eks_06_PostfixTilSvar.dir\
   TARGET_FILE = eks_06_PostfixTilSvar.exe
   TARGET_IMPLIB = libeks_06_PostfixTilSvar.dll.a
-  TARGET_PDB = eks_06_PostfixTilSvar.pdb
+  TARGET_PDB = eks_06_PostfixTilSvar.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target eks_07_ByggeParseTre
@@ -462,8 +565,6 @@ build CMakeFiles/eks_07_ByggeParseTre.dir/eks_07_ByggeParseTre.cpp.obj: CXX_COMP
   INCLUDES = -I"C:/Users/amund/OneDrive - NTNU/Dokumenter/NTNU_2/GrProg/Eksempler/../Oppgaver" -I"C:/Users/amund/OneDrive - NTNU/Dokumenter/NTNU_2/GrProg/Eksempler/../Eksamen" -I"C:/Users/amund/OneDrive - NTNU/Dokumenter/NTNU_2/GrProg/Eksempler/../Obliger"
   OBJECT_DIR = CMakeFiles\eks_07_ByggeParseTre.dir
   OBJECT_FILE_DIR = CMakeFiles\eks_07_ByggeParseTre.dir
-  TARGET_COMPILE_PDB = CMakeFiles\eks_07_ByggeParseTre.dir\
-  TARGET_PDB = eks_07_ByggeParseTre.pdb
 
 
 # =============================================================================
@@ -479,10 +580,9 @@ build eks_07_ByggeParseTre.exe: CXX_EXECUTABLE_LINKER__eks_07_ByggeParseTre_Debu
   OBJECT_DIR = CMakeFiles\eks_07_ByggeParseTre.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\eks_07_ByggeParseTre.dir\
   TARGET_FILE = eks_07_ByggeParseTre.exe
   TARGET_IMPLIB = libeks_07_ByggeParseTre.dll.a
-  TARGET_PDB = eks_07_ByggeParseTre.pdb
+  TARGET_PDB = eks_07_ByggeParseTre.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target eks_08_TreTraversering
@@ -499,8 +599,6 @@ build CMakeFiles/eks_08_TreTraversering.dir/eks_08_TreTraversering.cpp.obj: CXX_
   INCLUDES = -I"C:/Users/amund/OneDrive - NTNU/Dokumenter/NTNU_2/GrProg/Eksempler/../Oppgaver" -I"C:/Users/amund/OneDrive - NTNU/Dokumenter/NTNU_2/GrProg/Eksempler/../Eksamen" -I"C:/Users/amund/OneDrive - NTNU/Dokumenter/NTNU_2/GrProg/Eksempler/../Obliger"
   OBJECT_DIR = CMakeFiles\eks_08_TreTraversering.dir
   OBJECT_FILE_DIR = CMakeFiles\eks_08_TreTraversering.dir
-  TARGET_COMPILE_PDB = CMakeFiles\eks_08_TreTraversering.dir\
-  TARGET_PDB = eks_08_TreTraversering.pdb
 
 
 # =============================================================================
@@ -516,10 +614,9 @@ build eks_08_TreTraversering.exe: CXX_EXECUTABLE_LINKER__eks_08_TreTraversering_
   OBJECT_DIR = CMakeFiles\eks_08_TreTraversering.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\eks_08_TreTraversering.dir\
   TARGET_FILE = eks_08_TreTraversering.exe
   TARGET_IMPLIB = libeks_08_TreTraversering.dll.a
-  TARGET_PDB = eks_08_TreTraversering.pdb
+  TARGET_PDB = eks_08_TreTraversering.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target eks_09_EnkelRekursjon
@@ -536,8 +633,6 @@ build CMakeFiles/eks_09_EnkelRekursjon.dir/eks_09_EnkelRekursjon.cpp.obj: CXX_CO
   INCLUDES = -I"C:/Users/amund/OneDrive - NTNU/Dokumenter/NTNU_2/GrProg/Eksempler/../Oppgaver" -I"C:/Users/amund/OneDrive - NTNU/Dokumenter/NTNU_2/GrProg/Eksempler/../Eksamen" -I"C:/Users/amund/OneDrive - NTNU/Dokumenter/NTNU_2/GrProg/Eksempler/../Obliger"
   OBJECT_DIR = CMakeFiles\eks_09_EnkelRekursjon.dir
   OBJECT_FILE_DIR = CMakeFiles\eks_09_EnkelRekursjon.dir
-  TARGET_COMPILE_PDB = CMakeFiles\eks_09_EnkelRekursjon.dir\
-  TARGET_PDB = eks_09_EnkelRekursjon.pdb
 
 
 # =============================================================================
@@ -553,10 +648,9 @@ build eks_09_EnkelRekursjon.exe: CXX_EXECUTABLE_LINKER__eks_09_EnkelRekursjon_De
   OBJECT_DIR = CMakeFiles\eks_09_EnkelRekursjon.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\eks_09_EnkelRekursjon.dir\
   TARGET_FILE = eks_09_EnkelRekursjon.exe
   TARGET_IMPLIB = libeks_09_EnkelRekursjon.dll.a
-  TARGET_PDB = eks_09_EnkelRekursjon.pdb
+  TARGET_PDB = eks_09_EnkelRekursjon.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target eks_10_3xRekursjonsEks
@@ -573,8 +667,6 @@ build CMakeFiles/eks_10_3xRekursjonsEks.dir/eks_10_3xRekursjonsEks.cpp.obj: CXX_
   INCLUDES = -I"C:/Users/amund/OneDrive - NTNU/Dokumenter/NTNU_2/GrProg/Eksempler/../Oppgaver" -I"C:/Users/amund/OneDrive - NTNU/Dokumenter/NTNU_2/GrProg/Eksempler/../Eksamen" -I"C:/Users/amund/OneDrive - NTNU/Dokumenter/NTNU_2/GrProg/Eksempler/../Obliger"
   OBJECT_DIR = CMakeFiles\eks_10_3xRekursjonsEks.dir
   OBJECT_FILE_DIR = CMakeFiles\eks_10_3xRekursjonsEks.dir
-  TARGET_COMPILE_PDB = CMakeFiles\eks_10_3xRekursjonsEks.dir\
-  TARGET_PDB = eks_10_3xRekursjonsEks.pdb
 
 
 # =============================================================================
@@ -590,10 +682,9 @@ build eks_10_3xRekursjonsEks.exe: CXX_EXECUTABLE_LINKER__eks_10_3xRekursjonsEks_
   OBJECT_DIR = CMakeFiles\eks_10_3xRekursjonsEks.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\eks_10_3xRekursjonsEks.dir\
   TARGET_FILE = eks_10_3xRekursjonsEks.exe
   TARGET_IMPLIB = libeks_10_3xRekursjonsEks.dll.a
-  TARGET_PDB = eks_10_3xRekursjonsEks.pdb
+  TARGET_PDB = eks_10_3xRekursjonsEks.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target eks_11_GrafikkRekursjon
@@ -610,8 +701,6 @@ build CMakeFiles/eks_11_GrafikkRekursjon.dir/eks_11_GrafikkRekursjon.cpp.obj: CX
   INCLUDES = -I"C:/Users/amund/OneDrive - NTNU/Dokumenter/NTNU_2/GrProg/Eksempler/../Oppgaver" -I"C:/Users/amund/OneDrive - NTNU/Dokumenter/NTNU_2/GrProg/Eksempler/../Eksamen" -I"C:/Users/amund/OneDrive - NTNU/Dokumenter/NTNU_2/GrProg/Eksempler/../Obliger"
   OBJECT_DIR = CMakeFiles\eks_11_GrafikkRekursjon.dir
   OBJECT_FILE_DIR = CMakeFiles\eks_11_GrafikkRekursjon.dir
-  TARGET_COMPILE_PDB = CMakeFiles\eks_11_GrafikkRekursjon.dir\
-  TARGET_PDB = eks_11_GrafikkRekursjon.pdb
 
 
 # =============================================================================
@@ -627,10 +716,9 @@ build eks_11_GrafikkRekursjon.exe: CXX_EXECUTABLE_LINKER__eks_11_GrafikkRekursjo
   OBJECT_DIR = CMakeFiles\eks_11_GrafikkRekursjon.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\eks_11_GrafikkRekursjon.dir\
   TARGET_FILE = eks_11_GrafikkRekursjon.exe
   TARGET_IMPLIB = libeks_11_GrafikkRekursjon.dll.a
-  TARGET_PDB = eks_11_GrafikkRekursjon.pdb
+  TARGET_PDB = eks_11_GrafikkRekursjon.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target eks_12_RekursivTreTraversering
@@ -647,8 +735,6 @@ build CMakeFiles/eks_12_RekursivTreTraversering.dir/eks_12_RekursivTreTraverseri
   INCLUDES = -I"C:/Users/amund/OneDrive - NTNU/Dokumenter/NTNU_2/GrProg/Eksempler/../Oppgaver" -I"C:/Users/amund/OneDrive - NTNU/Dokumenter/NTNU_2/GrProg/Eksempler/../Eksamen" -I"C:/Users/amund/OneDrive - NTNU/Dokumenter/NTNU_2/GrProg/Eksempler/../Obliger"
   OBJECT_DIR = CMakeFiles\eks_12_RekursivTreTraversering.dir
   OBJECT_FILE_DIR = CMakeFiles\eks_12_RekursivTreTraversering.dir
-  TARGET_COMPILE_PDB = CMakeFiles\eks_12_RekursivTreTraversering.dir\
-  TARGET_PDB = eks_12_RekursivTreTraversering.pdb
 
 
 # =============================================================================
@@ -664,10 +750,9 @@ build eks_12_RekursivTreTraversering.exe: CXX_EXECUTABLE_LINKER__eks_12_Rekursiv
   OBJECT_DIR = CMakeFiles\eks_12_RekursivTreTraversering.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\eks_12_RekursivTreTraversering.dir\
   TARGET_FILE = eks_12_RekursivTreTraversering.exe
   TARGET_IMPLIB = libeks_12_RekursivTreTraversering.dll.a
-  TARGET_PDB = eks_12_RekursivTreTraversering.pdb
+  TARGET_PDB = eks_12_RekursivTreTraversering.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target eks_13_SkrivStjerner
@@ -684,8 +769,6 @@ build CMakeFiles/eks_13_SkrivStjerner.dir/eks_13_SkrivStjerner.cpp.obj: CXX_COMP
   INCLUDES = -I"C:/Users/amund/OneDrive - NTNU/Dokumenter/NTNU_2/GrProg/Eksempler/../Oppgaver" -I"C:/Users/amund/OneDrive - NTNU/Dokumenter/NTNU_2/GrProg/Eksempler/../Eksamen" -I"C:/Users/amund/OneDrive - NTNU/Dokumenter/NTNU_2/GrProg/Eksempler/../Obliger"
   OBJECT_DIR = CMakeFiles\eks_13_SkrivStjerner.dir
   OBJECT_FILE_DIR = CMakeFiles\eks_13_SkrivStjerner.dir
-  TARGET_COMPILE_PDB = CMakeFiles\eks_13_SkrivStjerner.dir\
-  TARGET_PDB = eks_13_SkrivStjerner.pdb
 
 
 # =============================================================================
@@ -701,10 +784,9 @@ build eks_13_SkrivStjerner.exe: CXX_EXECUTABLE_LINKER__eks_13_SkrivStjerner_Debu
   OBJECT_DIR = CMakeFiles\eks_13_SkrivStjerner.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\eks_13_SkrivStjerner.dir\
   TARGET_FILE = eks_13_SkrivStjerner.exe
   TARGET_IMPLIB = libeks_13_SkrivStjerner.dll.a
-  TARGET_PDB = eks_13_SkrivStjerner.pdb
+  TARGET_PDB = eks_13_SkrivStjerner.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target eks_14_DronningPlassering
@@ -721,8 +803,6 @@ build CMakeFiles/eks_14_DronningPlassering.dir/eks_14_DronningPlassering.cpp.obj
   INCLUDES = -I"C:/Users/amund/OneDrive - NTNU/Dokumenter/NTNU_2/GrProg/Eksempler/../Oppgaver" -I"C:/Users/amund/OneDrive - NTNU/Dokumenter/NTNU_2/GrProg/Eksempler/../Eksamen" -I"C:/Users/amund/OneDrive - NTNU/Dokumenter/NTNU_2/GrProg/Eksempler/../Obliger"
   OBJECT_DIR = CMakeFiles\eks_14_DronningPlassering.dir
   OBJECT_FILE_DIR = CMakeFiles\eks_14_DronningPlassering.dir
-  TARGET_COMPILE_PDB = CMakeFiles\eks_14_DronningPlassering.dir\
-  TARGET_PDB = eks_14_DronningPlassering.pdb
 
 
 # =============================================================================
@@ -738,10 +818,9 @@ build eks_14_DronningPlassering.exe: CXX_EXECUTABLE_LINKER__eks_14_DronningPlass
   OBJECT_DIR = CMakeFiles\eks_14_DronningPlassering.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\eks_14_DronningPlassering.dir\
   TARGET_FILE = eks_14_DronningPlassering.exe
   TARGET_IMPLIB = libeks_14_DronningPlassering.dll.a
-  TARGET_PDB = eks_14_DronningPlassering.pdb
+  TARGET_PDB = eks_14_DronningPlassering.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target eks_15_Tre_Case1
@@ -758,8 +837,6 @@ build CMakeFiles/eks_15_Tre_Case1.dir/eks_15_Tre_Case1.cpp.obj: CXX_COMPILER__ek
   INCLUDES = -I"C:/Users/amund/OneDrive - NTNU/Dokumenter/NTNU_2/GrProg/Eksempler/../Oppgaver" -I"C:/Users/amund/OneDrive - NTNU/Dokumenter/NTNU_2/GrProg/Eksempler/../Eksamen" -I"C:/Users/amund/OneDrive - NTNU/Dokumenter/NTNU_2/GrProg/Eksempler/../Obliger"
   OBJECT_DIR = CMakeFiles\eks_15_Tre_Case1.dir
   OBJECT_FILE_DIR = CMakeFiles\eks_15_Tre_Case1.dir
-  TARGET_COMPILE_PDB = CMakeFiles\eks_15_Tre_Case1.dir\
-  TARGET_PDB = eks_15_Tre_Case1.pdb
 
 
 # =============================================================================
@@ -775,10 +852,9 @@ build eks_15_Tre_Case1.exe: CXX_EXECUTABLE_LINKER__eks_15_Tre_Case1_Debug CMakeF
   OBJECT_DIR = CMakeFiles\eks_15_Tre_Case1.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\eks_15_Tre_Case1.dir\
   TARGET_FILE = eks_15_Tre_Case1.exe
   TARGET_IMPLIB = libeks_15_Tre_Case1.dll.a
-  TARGET_PDB = eks_15_Tre_Case1.pdb
+  TARGET_PDB = eks_15_Tre_Case1.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target eks_16_Tre_Case2
@@ -795,8 +871,6 @@ build CMakeFiles/eks_16_Tre_Case2.dir/eks_16_Tre_Case2.cpp.obj: CXX_COMPILER__ek
   INCLUDES = -I"C:/Users/amund/OneDrive - NTNU/Dokumenter/NTNU_2/GrProg/Eksempler/../Oppgaver" -I"C:/Users/amund/OneDrive - NTNU/Dokumenter/NTNU_2/GrProg/Eksempler/../Eksamen" -I"C:/Users/amund/OneDrive - NTNU/Dokumenter/NTNU_2/GrProg/Eksempler/../Obliger"
   OBJECT_DIR = CMakeFiles\eks_16_Tre_Case2.dir
   OBJECT_FILE_DIR = CMakeFiles\eks_16_Tre_Case2.dir
-  TARGET_COMPILE_PDB = CMakeFiles\eks_16_Tre_Case2.dir\
-  TARGET_PDB = eks_16_Tre_Case2.pdb
 
 
 # =============================================================================
@@ -812,10 +886,9 @@ build eks_16_Tre_Case2.exe: CXX_EXECUTABLE_LINKER__eks_16_Tre_Case2_Debug CMakeF
   OBJECT_DIR = CMakeFiles\eks_16_Tre_Case2.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\eks_16_Tre_Case2.dir\
   TARGET_FILE = eks_16_Tre_Case2.exe
   TARGET_IMPLIB = libeks_16_Tre_Case2.dll.a
-  TARGET_PDB = eks_16_Tre_Case2.pdb
+  TARGET_PDB = eks_16_Tre_Case2.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target eks_17_Tre_Case3
@@ -832,8 +905,6 @@ build CMakeFiles/eks_17_Tre_Case3.dir/eks_17_Tre_Case3.cpp.obj: CXX_COMPILER__ek
   INCLUDES = -I"C:/Users/amund/OneDrive - NTNU/Dokumenter/NTNU_2/GrProg/Eksempler/../Oppgaver" -I"C:/Users/amund/OneDrive - NTNU/Dokumenter/NTNU_2/GrProg/Eksempler/../Eksamen" -I"C:/Users/amund/OneDrive - NTNU/Dokumenter/NTNU_2/GrProg/Eksempler/../Obliger"
   OBJECT_DIR = CMakeFiles\eks_17_Tre_Case3.dir
   OBJECT_FILE_DIR = CMakeFiles\eks_17_Tre_Case3.dir
-  TARGET_COMPILE_PDB = CMakeFiles\eks_17_Tre_Case3.dir\
-  TARGET_PDB = eks_17_Tre_Case3.pdb
 
 
 # =============================================================================
@@ -849,10 +920,9 @@ build eks_17_Tre_Case3.exe: CXX_EXECUTABLE_LINKER__eks_17_Tre_Case3_Debug CMakeF
   OBJECT_DIR = CMakeFiles\eks_17_Tre_Case3.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\eks_17_Tre_Case3.dir\
   TARGET_FILE = eks_17_Tre_Case3.exe
   TARGET_IMPLIB = libeks_17_Tre_Case3.dll.a
-  TARGET_PDB = eks_17_Tre_Case3.pdb
+  TARGET_PDB = eks_17_Tre_Case3.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target eks_18_Tre_Case4
@@ -869,8 +939,6 @@ build CMakeFiles/eks_18_Tre_Case4.dir/eks_18_Tre_Case4.cpp.obj: CXX_COMPILER__ek
   INCLUDES = -I"C:/Users/amund/OneDrive - NTNU/Dokumenter/NTNU_2/GrProg/Eksempler/../Oppgaver" -I"C:/Users/amund/OneDrive - NTNU/Dokumenter/NTNU_2/GrProg/Eksempler/../Eksamen" -I"C:/Users/amund/OneDrive - NTNU/Dokumenter/NTNU_2/GrProg/Eksempler/../Obliger"
   OBJECT_DIR = CMakeFiles\eks_18_Tre_Case4.dir
   OBJECT_FILE_DIR = CMakeFiles\eks_18_Tre_Case4.dir
-  TARGET_COMPILE_PDB = CMakeFiles\eks_18_Tre_Case4.dir\
-  TARGET_PDB = eks_18_Tre_Case4.pdb
 
 
 # =============================================================================
@@ -886,10 +954,213 @@ build eks_18_Tre_Case4.exe: CXX_EXECUTABLE_LINKER__eks_18_Tre_Case4_Debug CMakeF
   OBJECT_DIR = CMakeFiles\eks_18_Tre_Case4.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\eks_18_Tre_Case4.dir\
   TARGET_FILE = eks_18_Tre_Case4.exe
   TARGET_IMPLIB = libeks_18_Tre_Case4.dll.a
-  TARGET_PDB = eks_18_Tre_Case4.pdb
+  TARGET_PDB = eks_18_Tre_Case4.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target eks_23_ShellSort
+
+
+#############################################
+# Order-only phony target for eks_23_ShellSort
+
+build cmake_object_order_depends_target_eks_23_ShellSort: phony || .
+
+build CMakeFiles/eks_23_ShellSort.dir/eks_23_ShellSort.cpp.obj: CXX_COMPILER__eks_23_ShellSort_unscanned_Debug C$:/Users/amund/OneDrive$ -$ NTNU/Dokumenter/NTNU_2/GrProg/Eksempler/eks_23_ShellSort.cpp || cmake_object_order_depends_target_eks_23_ShellSort
+  DEP_FILE = CMakeFiles\eks_23_ShellSort.dir\eks_23_ShellSort.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  INCLUDES = -I"C:/Users/amund/OneDrive - NTNU/Dokumenter/NTNU_2/GrProg/Eksempler/../Oppgaver" -I"C:/Users/amund/OneDrive - NTNU/Dokumenter/NTNU_2/GrProg/Eksempler/../Eksamen" -I"C:/Users/amund/OneDrive - NTNU/Dokumenter/NTNU_2/GrProg/Eksempler/../Obliger"
+  OBJECT_DIR = CMakeFiles\eks_23_ShellSort.dir
+  OBJECT_FILE_DIR = CMakeFiles\eks_23_ShellSort.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target eks_23_ShellSort
+
+
+#############################################
+# Link the executable eks_23_ShellSort.exe
+
+build eks_23_ShellSort.exe: CXX_EXECUTABLE_LINKER__eks_23_ShellSort_Debug CMakeFiles/eks_23_ShellSort.dir/eks_23_ShellSort.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\eks_23_ShellSort.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = eks_23_ShellSort.exe
+  TARGET_IMPLIB = libeks_23_ShellSort.dll.a
+  TARGET_PDB = eks_23_ShellSort.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target eks_24_QuickSort
+
+
+#############################################
+# Order-only phony target for eks_24_QuickSort
+
+build cmake_object_order_depends_target_eks_24_QuickSort: phony || .
+
+build CMakeFiles/eks_24_QuickSort.dir/eks_24_QuickSort.cpp.obj: CXX_COMPILER__eks_24_QuickSort_unscanned_Debug C$:/Users/amund/OneDrive$ -$ NTNU/Dokumenter/NTNU_2/GrProg/Eksempler/eks_24_QuickSort.cpp || cmake_object_order_depends_target_eks_24_QuickSort
+  DEP_FILE = CMakeFiles\eks_24_QuickSort.dir\eks_24_QuickSort.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  INCLUDES = -I"C:/Users/amund/OneDrive - NTNU/Dokumenter/NTNU_2/GrProg/Eksempler/../Oppgaver" -I"C:/Users/amund/OneDrive - NTNU/Dokumenter/NTNU_2/GrProg/Eksempler/../Eksamen" -I"C:/Users/amund/OneDrive - NTNU/Dokumenter/NTNU_2/GrProg/Eksempler/../Obliger"
+  OBJECT_DIR = CMakeFiles\eks_24_QuickSort.dir
+  OBJECT_FILE_DIR = CMakeFiles\eks_24_QuickSort.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target eks_24_QuickSort
+
+
+#############################################
+# Link the executable eks_24_QuickSort.exe
+
+build eks_24_QuickSort.exe: CXX_EXECUTABLE_LINKER__eks_24_QuickSort_Debug CMakeFiles/eks_24_QuickSort.dir/eks_24_QuickSort.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\eks_24_QuickSort.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = eks_24_QuickSort.exe
+  TARGET_IMPLIB = libeks_24_QuickSort.dll.a
+  TARGET_PDB = eks_24_QuickSort.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target eks_26_HeapSort
+
+
+#############################################
+# Order-only phony target for eks_26_HeapSort
+
+build cmake_object_order_depends_target_eks_26_HeapSort: phony || .
+
+build CMakeFiles/eks_26_HeapSort.dir/eks_26_HeapSort.cpp.obj: CXX_COMPILER__eks_26_HeapSort_unscanned_Debug C$:/Users/amund/OneDrive$ -$ NTNU/Dokumenter/NTNU_2/GrProg/Eksempler/eks_26_HeapSort.cpp || cmake_object_order_depends_target_eks_26_HeapSort
+  DEP_FILE = CMakeFiles\eks_26_HeapSort.dir\eks_26_HeapSort.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  INCLUDES = -I"C:/Users/amund/OneDrive - NTNU/Dokumenter/NTNU_2/GrProg/Eksempler/../Oppgaver" -I"C:/Users/amund/OneDrive - NTNU/Dokumenter/NTNU_2/GrProg/Eksempler/../Eksamen" -I"C:/Users/amund/OneDrive - NTNU/Dokumenter/NTNU_2/GrProg/Eksempler/../Obliger"
+  OBJECT_DIR = CMakeFiles\eks_26_HeapSort.dir
+  OBJECT_FILE_DIR = CMakeFiles\eks_26_HeapSort.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target eks_26_HeapSort
+
+
+#############################################
+# Link the executable eks_26_HeapSort.exe
+
+build eks_26_HeapSort.exe: CXX_EXECUTABLE_LINKER__eks_26_HeapSort_Debug CMakeFiles/eks_26_HeapSort.dir/eks_26_HeapSort.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\eks_26_HeapSort.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = eks_26_HeapSort.exe
+  TARGET_IMPLIB = libeks_26_HeapSort.dll.a
+  TARGET_PDB = eks_26_HeapSort.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target eks_31_MST
+
+
+#############################################
+# Order-only phony target for eks_31_MST
+
+build cmake_object_order_depends_target_eks_31_MST: phony || .
+
+build CMakeFiles/eks_31_MST.dir/eks_31_MST.cpp.obj: CXX_COMPILER__eks_31_MST_unscanned_Debug C$:/Users/amund/OneDrive$ -$ NTNU/Dokumenter/NTNU_2/GrProg/Eksempler/eks_31_MST.cpp || cmake_object_order_depends_target_eks_31_MST
+  DEP_FILE = CMakeFiles\eks_31_MST.dir\eks_31_MST.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  INCLUDES = -I"C:/Users/amund/OneDrive - NTNU/Dokumenter/NTNU_2/GrProg/Eksempler/../Oppgaver" -I"C:/Users/amund/OneDrive - NTNU/Dokumenter/NTNU_2/GrProg/Eksempler/../Eksamen" -I"C:/Users/amund/OneDrive - NTNU/Dokumenter/NTNU_2/GrProg/Eksempler/../Obliger"
+  OBJECT_DIR = CMakeFiles\eks_31_MST.dir
+  OBJECT_FILE_DIR = CMakeFiles\eks_31_MST.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target eks_31_MST
+
+
+#############################################
+# Link the executable eks_31_MST.exe
+
+build eks_31_MST.exe: CXX_EXECUTABLE_LINKER__eks_31_MST_Debug CMakeFiles/eks_31_MST.dir/eks_31_MST.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\eks_31_MST.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = eks_31_MST.exe
+  TARGET_IMPLIB = libeks_31_MST.dll.a
+  TARGET_PDB = eks_31_MST.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target eks_33_Graf_Case1
+
+
+#############################################
+# Order-only phony target for eks_33_Graf_Case1
+
+build cmake_object_order_depends_target_eks_33_Graf_Case1: phony || .
+
+build CMakeFiles/eks_33_Graf_Case1.dir/eks_33_Graf_Case1.cpp.obj: CXX_COMPILER__eks_33_Graf_Case1_unscanned_Debug C$:/Users/amund/OneDrive$ -$ NTNU/Dokumenter/NTNU_2/GrProg/Eksempler/eks_33_Graf_Case1.cpp || cmake_object_order_depends_target_eks_33_Graf_Case1
+  DEP_FILE = CMakeFiles\eks_33_Graf_Case1.dir\eks_33_Graf_Case1.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  INCLUDES = -I"C:/Users/amund/OneDrive - NTNU/Dokumenter/NTNU_2/GrProg/Eksempler/../Oppgaver" -I"C:/Users/amund/OneDrive - NTNU/Dokumenter/NTNU_2/GrProg/Eksempler/../Eksamen" -I"C:/Users/amund/OneDrive - NTNU/Dokumenter/NTNU_2/GrProg/Eksempler/../Obliger"
+  OBJECT_DIR = CMakeFiles\eks_33_Graf_Case1.dir
+  OBJECT_FILE_DIR = CMakeFiles\eks_33_Graf_Case1.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target eks_33_Graf_Case1
+
+
+#############################################
+# Link the executable eks_33_Graf_Case1.exe
+
+build eks_33_Graf_Case1.exe: CXX_EXECUTABLE_LINKER__eks_33_Graf_Case1_Debug CMakeFiles/eks_33_Graf_Case1.dir/eks_33_Graf_Case1.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\eks_33_Graf_Case1.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = eks_33_Graf_Case1.exe
+  TARGET_IMPLIB = libeks_33_Graf_Case1.dll.a
+  TARGET_PDB = eks_33_Graf_Case1.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target eks_34_Graf_Case2
+
+
+#############################################
+# Order-only phony target for eks_34_Graf_Case2
+
+build cmake_object_order_depends_target_eks_34_Graf_Case2: phony || .
+
+build CMakeFiles/eks_34_Graf_Case2.dir/eks_34_Graf_Case2.cpp.obj: CXX_COMPILER__eks_34_Graf_Case2_unscanned_Debug C$:/Users/amund/OneDrive$ -$ NTNU/Dokumenter/NTNU_2/GrProg/Eksempler/eks_34_Graf_Case2.cpp || cmake_object_order_depends_target_eks_34_Graf_Case2
+  DEP_FILE = CMakeFiles\eks_34_Graf_Case2.dir\eks_34_Graf_Case2.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  INCLUDES = -I"C:/Users/amund/OneDrive - NTNU/Dokumenter/NTNU_2/GrProg/Eksempler/../Oppgaver" -I"C:/Users/amund/OneDrive - NTNU/Dokumenter/NTNU_2/GrProg/Eksempler/../Eksamen" -I"C:/Users/amund/OneDrive - NTNU/Dokumenter/NTNU_2/GrProg/Eksempler/../Obliger"
+  OBJECT_DIR = CMakeFiles\eks_34_Graf_Case2.dir
+  OBJECT_FILE_DIR = CMakeFiles\eks_34_Graf_Case2.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target eks_34_Graf_Case2
+
+
+#############################################
+# Link the executable eks_34_Graf_Case2.exe
+
+build eks_34_Graf_Case2.exe: CXX_EXECUTABLE_LINKER__eks_34_Graf_Case2_Debug CMakeFiles/eks_34_Graf_Case2.dir/eks_34_Graf_Case2.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\eks_34_Graf_Case2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = eks_34_Graf_Case2.exe
+  TARGET_IMPLIB = libeks_34_Graf_Case2.dll.a
+  TARGET_PDB = eks_34_Graf_Case2.exe.dbg
 
 
 #############################################
@@ -916,6 +1187,14 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 # =============================================================================
 # Target aliases.
+
+build Case_2: phony Case_2.exe
+
+build Case_3: phony Case_3.exe
+
+build Case_4: phony Case_4.exe
+
+build Oblig5: phony Oblig5.exe
 
 build Oppgave_6: phony Oppgave_6.exe
 
@@ -959,6 +1238,18 @@ build eks_17_Tre_Case3: phony eks_17_Tre_Case3.exe
 
 build eks_18_Tre_Case4: phony eks_18_Tre_Case4.exe
 
+build eks_23_ShellSort: phony eks_23_ShellSort.exe
+
+build eks_24_QuickSort: phony eks_24_QuickSort.exe
+
+build eks_26_HeapSort: phony eks_26_HeapSort.exe
+
+build eks_31_MST: phony eks_31_MST.exe
+
+build eks_33_Graf_Case1: phony eks_33_Graf_Case1.exe
+
+build eks_34_Graf_Case2: phony eks_34_Graf_Case2.exe
+
 build oblig2: phony oblig2.exe
 
 build oppg_08-HOVEDRISS: phony oppg_08-HOVEDRISS.exe
@@ -971,7 +1262,7 @@ build oppg_08-HOVEDRISS: phony oppg_08-HOVEDRISS.exe
 #############################################
 # Folder: C:/Users/amund/OneDrive - NTNU/Dokumenter/NTNU_2/GrProg/Eksempler/cmake-build-debug
 
-build all: phony Traer_Case3.exe oblig2.exe Oppgave_6.exe Oppgave_7.exe oppg_08-HOVEDRISS.exe eks_01_Vector.exe eks_02_Stack.exe eks_03_Queue.exe eks_04_List.exe eks_05_InfixTilPostfix.exe eks_06_PostfixTilSvar.exe eks_07_ByggeParseTre.exe eks_08_TreTraversering.exe eks_09_EnkelRekursjon.exe eks_10_3xRekursjonsEks.exe eks_11_GrafikkRekursjon.exe eks_12_RekursivTreTraversering.exe eks_13_SkrivStjerner.exe eks_14_DronningPlassering.exe eks_15_Tre_Case1.exe eks_16_Tre_Case2.exe eks_17_Tre_Case3.exe eks_18_Tre_Case4.exe
+build all: phony Traer_Case3.exe Oblig5.exe oblig2.exe Case_2.exe Case_3.exe Case_4.exe Oppgave_6.exe Oppgave_7.exe oppg_08-HOVEDRISS.exe eks_01_Vector.exe eks_02_Stack.exe eks_03_Queue.exe eks_04_List.exe eks_05_InfixTilPostfix.exe eks_06_PostfixTilSvar.exe eks_07_ByggeParseTre.exe eks_08_TreTraversering.exe eks_09_EnkelRekursjon.exe eks_10_3xRekursjonsEks.exe eks_11_GrafikkRekursjon.exe eks_12_RekursivTreTraversering.exe eks_13_SkrivStjerner.exe eks_14_DronningPlassering.exe eks_15_Tre_Case1.exe eks_16_Tre_Case2.exe eks_17_Tre_Case3.exe eks_18_Tre_Case4.exe eks_23_ShellSort.exe eks_24_QuickSort.exe eks_26_HeapSort.exe eks_31_MST.exe eks_33_Graf_Case1.exe eks_34_Graf_Case2.exe
 
 # =============================================================================
 # Built-in targets
@@ -980,14 +1271,14 @@ build all: phony Traer_Case3.exe oblig2.exe Oppgave_6.exe Oppgave_7.exe oppg_08-
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCCompiler.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCCompilerABI.c C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCXXCompiler.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCompilerIdDetection.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCXXCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompileFeatures.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineRCCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeFindBinUtils.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeParseImplicitIncludeInfo.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeParseImplicitLinkInfo.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeParseLibraryArchitecture.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeRCCompiler.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystem.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeTestCompilerCommon.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeTestRCCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/ADSP-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/ARMCC-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/ARMClang-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/AppleClang-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Borland-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Bruce-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Clang-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Clang-DetermineCompilerInternal.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Compaq-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Cray-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/CrayClang-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Embarcadero-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Fujitsu-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GHS-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-FindBinUtils.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/HP-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/HP-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/IAR-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Intel-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/LCC-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/MSVC-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/NVHPC-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/NVIDIA-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/OrangeC-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/PGI-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/PathScale-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/SCO-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/SDCC-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/SunPro-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/TI-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/TIClang-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Tasking-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Watcom-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/XL-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/XL-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/XLClang-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/zOS-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Internal/FeatureTesting.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-Determine-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/WindowsPaths.cmake C$:/Users/amund/OneDrive$ -$ NTNU/Dokumenter/NTNU_2/GrProg/Eksempler/CMakeLists.txt CMakeCache.txt CMakeFiles/3.29.6/CMakeCCompiler.cmake CMakeFiles/3.29.6/CMakeCXXCompiler.cmake CMakeFiles/3.29.6/CMakeRCCompiler.cmake CMakeFiles/3.29.6/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/WindowsPaths.cmake C$:/Users/amund/OneDrive$ -$ NTNU/Dokumenter/NTNU_2/GrProg/Eksempler/CMakeLists.txt CMakeCache.txt CMakeFiles/3.29.6/CMakeCCompiler.cmake CMakeFiles/3.29.6/CMakeCXXCompiler.cmake CMakeFiles/3.29.6/CMakeRCCompiler.cmake CMakeFiles/3.29.6/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCCompiler.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCCompilerABI.c C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCXXCompiler.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCompilerIdDetection.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCXXCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompileFeatures.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineRCCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeFindBinUtils.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeParseImplicitIncludeInfo.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeParseImplicitLinkInfo.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeParseLibraryArchitecture.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeRCCompiler.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystem.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeTestCompilerCommon.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeTestRCCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/ADSP-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/ARMCC-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/ARMClang-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/AppleClang-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Borland-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Bruce-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Clang-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Clang-DetermineCompilerInternal.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Compaq-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Cray-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/CrayClang-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Embarcadero-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Fujitsu-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GHS-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-FindBinUtils.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/HP-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/HP-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/IAR-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Intel-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/LCC-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/MSVC-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/NVHPC-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/NVIDIA-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/OrangeC-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/PGI-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/PathScale-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/SCO-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/SDCC-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/SunPro-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/TI-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/TIClang-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Tasking-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Watcom-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/XL-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/XL-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/XLClang-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/zOS-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Internal/FeatureTesting.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-Determine-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/WindowsPaths.cmake C$:/Users/amund/OneDrive$ -$ NTNU/Dokumenter/NTNU_2/GrProg/Eksempler/CMakeLists.txt CMakeCache.txt CMakeFiles/3.29.6/CMakeCCompiler.cmake CMakeFiles/3.29.6/CMakeCXXCompiler.cmake CMakeFiles/3.29.6/CMakeRCCompiler.cmake CMakeFiles/3.29.6/CMakeSystem.cmake: phony
+build C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/WindowsPaths.cmake C$:/Users/amund/OneDrive$ -$ NTNU/Dokumenter/NTNU_2/GrProg/Eksempler/CMakeLists.txt CMakeCache.txt CMakeFiles/3.29.6/CMakeCCompiler.cmake CMakeFiles/3.29.6/CMakeCXXCompiler.cmake CMakeFiles/3.29.6/CMakeRCCompiler.cmake CMakeFiles/3.29.6/CMakeSystem.cmake: phony
 
 
 #############################################

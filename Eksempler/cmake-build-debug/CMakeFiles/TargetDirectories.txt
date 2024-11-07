@@ -1,5 +1,9 @@
 C:/Users/amund/OneDrive - NTNU/Dokumenter/NTNU_2/GrProg/Eksempler/cmake-build-debug/CMakeFiles/Traer_Case3.dir
+C:/Users/amund/OneDrive - NTNU/Dokumenter/NTNU_2/GrProg/Eksempler/cmake-build-debug/CMakeFiles/Oblig5.dir
 C:/Users/amund/OneDrive - NTNU/Dokumenter/NTNU_2/GrProg/Eksempler/cmake-build-debug/CMakeFiles/oblig2.dir
+C:/Users/amund/OneDrive - NTNU/Dokumenter/NTNU_2/GrProg/Eksempler/cmake-build-debug/CMakeFiles/Case_2.dir
+C:/Users/amund/OneDrive - NTNU/Dokumenter/NTNU_2/GrProg/Eksempler/cmake-build-debug/CMakeFiles/Case_3.dir
+C:/Users/amund/OneDrive - NTNU/Dokumenter/NTNU_2/GrProg/Eksempler/cmake-build-debug/CMakeFiles/Case_4.dir
 C:/Users/amund/OneDrive - NTNU/Dokumenter/NTNU_2/GrProg/Eksempler/cmake-build-debug/CMakeFiles/Oppgave_6.dir
 C:/Users/amund/OneDrive - NTNU/Dokumenter/NTNU_2/GrProg/Eksempler/cmake-build-debug/CMakeFiles/Oppgave_7.dir
 C:/Users/amund/OneDrive - NTNU/Dokumenter/NTNU_2/GrProg/Eksempler/cmake-build-debug/CMakeFiles/oppg_08-HOVEDRISS.dir
@@ -23,5 +27,9 @@ C:/Users/amund/OneDrive - NTNU/Dokumenter/NTNU_2/GrProg/Eksempler/cmake-build-de
 C:/Users/amund/OneDrive - NTNU/Dokumenter/NTNU_2/GrProg/Eksempler/cmake-build-debug/CMakeFiles/eks_18_Tre_Case4.dir
 C:/Users/amund/OneDrive - NTNU/Dokumenter/NTNU_2/GrProg/Eksempler/cmake-build-debug/CMakeFiles/eks_23_ShellSort.dir
 C:/Users/amund/OneDrive - NTNU/Dokumenter/NTNU_2/GrProg/Eksempler/cmake-build-debug/CMakeFiles/eks_24_QuickSort.dir
+C:/Users/amund/OneDrive - NTNU/Dokumenter/NTNU_2/GrProg/Eksempler/cmake-build-debug/CMakeFiles/eks_26_HeapSort.dir
+C:/Users/amund/OneDrive - NTNU/Dokumenter/NTNU_2/GrProg/Eksempler/cmake-build-debug/CMakeFiles/eks_31_MST.dir
+C:/Users/amund/OneDrive - NTNU/Dokumenter/NTNU_2/GrProg/Eksempler/cmake-build-debug/CMakeFiles/eks_33_Graf_Case1.dir
+C:/Users/amund/OneDrive - NTNU/Dokumenter/NTNU_2/GrProg/Eksempler/cmake-build-debug/CMakeFiles/eks_34_Graf_Case2.dir
 C:/Users/amund/OneDrive - NTNU/Dokumenter/NTNU_2/GrProg/Eksempler/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/amund/OneDrive - NTNU/Dokumenter/NTNU_2/GrProg/Eksempler/cmake-build-debug/CMakeFiles/rebuild_cache.dir
