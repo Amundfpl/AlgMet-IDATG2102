@@ -1,9 +1,14 @@
 C:/Users/amund/OneDrive - NTNU/Dokumenter/NTNU_2/GrProg/Eksempler/cmake-build-debug/CMakeFiles/Traer_Case3.dir
+C:/Users/amund/OneDrive - NTNU/Dokumenter/NTNU_2/GrProg/Eksempler/cmake-build-debug/CMakeFiles/eksamen_s24_3.dir
+C:/Users/amund/OneDrive - NTNU/Dokumenter/NTNU_2/GrProg/Eksempler/cmake-build-debug/CMakeFiles/eksamen_s24_4.dir
+C:/Users/amund/OneDrive - NTNU/Dokumenter/NTNU_2/GrProg/Eksempler/cmake-build-debug/CMakeFiles/eksamen_v23_3.dir
+C:/Users/amund/OneDrive - NTNU/Dokumenter/NTNU_2/GrProg/Eksempler/cmake-build-debug/CMakeFiles/eksamen_v23_4.dir
 C:/Users/amund/OneDrive - NTNU/Dokumenter/NTNU_2/GrProg/Eksempler/cmake-build-debug/CMakeFiles/Oblig5.dir
 C:/Users/amund/OneDrive - NTNU/Dokumenter/NTNU_2/GrProg/Eksempler/cmake-build-debug/CMakeFiles/oblig2.dir
 C:/Users/amund/OneDrive - NTNU/Dokumenter/NTNU_2/GrProg/Eksempler/cmake-build-debug/CMakeFiles/Case_2.dir
 C:/Users/amund/OneDrive - NTNU/Dokumenter/NTNU_2/GrProg/Eksempler/cmake-build-debug/CMakeFiles/Case_3.dir
 C:/Users/amund/OneDrive - NTNU/Dokumenter/NTNU_2/GrProg/Eksempler/cmake-build-debug/CMakeFiles/Case_4.dir
+C:/Users/amund/OneDrive - NTNU/Dokumenter/NTNU_2/GrProg/Eksempler/cmake-build-debug/CMakeFiles/Case_6.dir
 C:/Users/amund/OneDrive - NTNU/Dokumenter/NTNU_2/GrProg/Eksempler/cmake-build-debug/CMakeFiles/Oppgave_6.dir
 C:/Users/amund/OneDrive - NTNU/Dokumenter/NTNU_2/GrProg/Eksempler/cmake-build-debug/CMakeFiles/Oppgave_7.dir
 C:/Users/amund/OneDrive - NTNU/Dokumenter/NTNU_2/GrProg/Eksempler/cmake-build-debug/CMakeFiles/oppg_08-HOVEDRISS.dir

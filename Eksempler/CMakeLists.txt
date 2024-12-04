@@ -6,7 +6,7 @@ set(CMAKE_CXX_STANDARD 14)
 file(GLOB SOURCES "*.cpp" "../Oppgaver/*.cpp" "../Obliger/*.cpp" "../Eksamen/*.cpp")
 include_directories(../Oppgaver)
 include_directories(../Eksamen)
-include_directories(../Obliger)
+include_directories(.. /Obliger)
 
 
 
